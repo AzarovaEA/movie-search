@@ -1,0 +1,66 @@
+.big-movie-poster {
+  width: auto;
+  height: auto;
+  max-height: 350px;
+  min-height: 300px;
+  object-fit: contain;
+  border-radius: 20px;
+  border: 5px outsete var(--color-bg);
+  box-shadow: 0 0 4px var(--color-contact-link);
+}
+
+.film-page {
+  padding: 0px;
+}
+
+.film-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.film-details {
+  padding-left: 20px;
+}
+
+.details-loading {
+  color: var(--color-active);
+}
+
+
+@media (max-width: 600px) {
+  .film-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .film-details {
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+
+  .big-movie-poster {
+    margin: 0 auto;
+  }
+}
+
+.button-go-back {
+  background-color: var(--color-button);
+  border: none;
+  color: var(--color-request);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 25px;
+  margin-top: -10px;
+}
+
+.button-go-back::before {
+  content: " \25C0";
+  margin-right: 8px;
+}
+
+.button-go-back:hover {
+  content: "\f002";
+  color: var(--color-button-hover);
+}

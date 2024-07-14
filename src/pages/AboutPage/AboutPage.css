@@ -1,0 +1,29 @@
+.page-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--color-request);
+  text-shadow: 2px 2px 4px var(--color-active);
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.contact-link-style {
+  color: var(--color-contact-link);
+}
+
+.contact-link-style:hover {
+  color: var(--color-bg); 
+}
+
+.features {
+  margin-top: 20px;
+}
+
+.features li::marker {
+  color: var(--color-active);
+}

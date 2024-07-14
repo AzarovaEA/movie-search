@@ -1,0 +1,55 @@
+.selector {
+  border: 2px solid var(--color-active);
+  padding: 5px;
+  /* border-radius: 15px; */
+  text-align: center;
+  color: var(--color-bg);
+  /* margin-left: 10px; */
+  margin-left: -1px;
+  /* margin-right: 10px; */
+  width: 140px;
+}
+
+.selector:hover {
+  border-color: var(--color-active);
+  color: var(--color-active);
+}
+
+.left {
+  border-radius: 15px 0px 0px 15px;
+}
+
+.right {
+  border-radius: 0px 15px 15px 0px;
+}
+
+.selector option {
+  background-color: white;
+  color: var(--color-bg);
+}
+
+.button-selector {
+  text-align: center;
+  border-radius: 15px;
+  color: var(--color-bg);
+  margin: 10px;
+}
+
+@media (max-width: 360px) {
+  .selector {
+    border: 2px solid var(--color-active);
+    padding: 5px;
+    text-align: center;
+    color: var(--color-bg);
+    width: 190px;
+  }
+
+  .left {
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .right {
+    border-radius: 15px;
+  }
+}

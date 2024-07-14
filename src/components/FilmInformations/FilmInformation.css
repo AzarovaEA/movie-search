@@ -1,0 +1,69 @@
+.big-movie-poster {
+  width: auto;
+  height: auto;
+  max-height: 350px;
+  min-height: 300px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.film-page {
+  padding: 10px;
+}
+
+.film-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.film-details {
+  padding-left: 20px;
+}
+
+.film-title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--color-request);
+  text-shadow: 2px 2px 4px var(--color-active);
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.text-title {
+  font-weight: bold;
+  color: var(--color-request);
+  text-shadow: 1px 1px 1px var(--color-active);
+  margin-bottom: 0;
+}
+
+.film-info-row {
+  display: flex;
+}
+
+.film-info-column {
+  flex: 1;
+  padding-right: 0px;
+}
+
+.first-column {
+  padding-right: 0%;
+  width: 250px;
+  min-width: 250px;
+}
+
+.detail-content {
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .film-details {
+    padding-left: 0px;
+  }
+
+  .first-column {
+    padding-right: 20px;
+    width: 60%;
+    min-width: 60%;
+  }
+}
